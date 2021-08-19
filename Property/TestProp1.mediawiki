@@ -1,0 +1,8 @@
+{{Property
+|Property name=TestProp1
+|Mode=Allows
+|Values=ValueA;ValueB;ValueC
+|Default value=ValueB
+}}
+[[has type::Text]]
+[[Category:Mediawiki-pages-AllowedValues]]

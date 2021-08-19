@@ -1,0 +1,9 @@
+<includeonly><!--
+-->{{#ifeq:{{{Mode|}}}|Suggests|<!--
+---->Suggest: {{#arraymap:{{{Values|}}}|;|x|* [[Suggests value::x]]|\n}}<!--
+-->|<!--
+---->Allows: {{#arraymap:{{{Values|}}}|;|x|* [[Allows value::x]]|\n}}<!--
+-->}}<!--
+-->{{#set:Default value={{{Default value|}}}}}<!--
+-->{{#default_form:Property}}<!--
+--></includeonly><noinclude>[[Category:Mediawiki-pages-AllowedValues]]</noinclude>

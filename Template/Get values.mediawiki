@@ -1,0 +1,1 @@
+<includeonly>{{#show:Property:{{{1}}}|?Allows value}}{{#show:Property:{{{1}}}|?Suggests value}}</includeonly><noinclude>[[Category:Mediawiki-pages-AllowedValues]]</noinclude>

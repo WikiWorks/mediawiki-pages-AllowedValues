@@ -1,0 +1,1 @@
+<includeonly>{{#show:Property:{{{1}}}|?Default value}}</includeonly><noinclude>[[Category:Mediawiki-pages-AllowedValues]]</noinclude>

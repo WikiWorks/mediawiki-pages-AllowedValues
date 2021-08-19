@@ -1,0 +1,3 @@
+[[Has type::Text]]
+[[Subproperty of::Value]]
+[[Category:Mediawiki-pages-AllowedValues]]

@@ -1,0 +1,73 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https:\/\/github.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues",
+    "packages": {
+        "AllowedValues": {
+            "globalID": "gov.nga.AllowedValues",
+            "description": "",
+            "version": "1",
+            "pages": [
+                {
+                    "name": "Property",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Form%2FProperty.mediawiki"
+                },
+                {
+                    "name": "TestPropertyFormUsage",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Form%2FTestPropertyFormUsage.mediawiki"
+                },
+                {
+                    "name": "Allows value",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Property%2FAllows%20value.mediawiki"
+                },
+                {
+                    "name": "Suggests value",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Property%2FSuggests%20value.mediawiki"
+                },
+                {
+                    "name": "TestProp1",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Property%2FTestProp1.mediawiki"
+                },
+                {
+                    "name": "Value",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Property%2FValue.mediawiki"
+                },
+                {
+                    "name": "FormField",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Template%2FFormField.mediawiki"
+                },
+                {
+                    "name": "Get default value",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Template%2FGet%20default%20value.mediawiki"
+                },
+                {
+                    "name": "Get values",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Template%2FGet%20values.mediawiki"
+                },
+                {
+                    "name": "Only existing",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Template%2FOnly%20existing.mediawiki"
+                },
+                {
+                    "name": "Property",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/mediawiki-pages-AllowedValues\/main\/Template%2FProperty.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                "PageForms"
+            ]
+        }
+    }
+}

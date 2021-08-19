@@ -1,0 +1,32 @@
+<noinclude>
+This is the "TestPropertyFormUsage" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=TestPropertyFormUsage}}
+[[Category:Mediawiki-pages-AllowedValues]]
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|TestPropertyFormUsage}}}
+{| class="formtable"
+|-
+! FieldA
+| {{FormField|FieldA|TestProp1|<nowiki>|input type=tokens</nowiki>}}
+|-
+! FieldB
+| {{FormField|FieldB|TestProp1|<nowiki>|input type=dropdown</nowiki>}}
+|-
+! FieldC
+| {{FormField|FieldB|TestProp1|<nowiki>|input type=checkboxes</nowiki>}}
+|-
+! FieldD
+| {{FormField|FieldB|TestProp1|<nowiki>|input type=text with autocomplete</nowiki>}}
+|-
+! FieldE
+| {{FormField|FieldB|TestProp1|<nowiki>|input type=combobox</nowiki>}}
+|-
+|}
+{{{end template}}}
+
+{{{standard input|save}}} {{{standard input|cancel}}}
+</includeonly>

@@ -1,0 +1,30 @@
+<noinclude>
+This is the "Property" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Property}}
+
+[[Category:Mediawiki-pages-AllowedValues]]
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{info|page name=Property:<Property[Property name]>}}}
+{{{for template|Property}}}
+{| class="formtable"
+! Property name
+| {{{field|Property name|mandatory}}}
+|-
+! Mode
+| {{{field|Mode|input type=radiobutton|values=Suggests,Allows|mandatory|default=Suggests}}}
+|-
+! Values
+| {{{field|Values|input type=tokens|list|delimiter=;}}}
+|-
+! Default value
+| {{{field|Default value|input type=text}}}
+|-
+|}
+{{{end template}}}
+
+{{{standard input|save}}} {{{standard input|cancel}}}
+</includeonly>
