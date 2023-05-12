@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiWorks\/mediawiki-pages-AllowedValues",
     "packages": {
         "AllowedValues": {
-            "globalID": "gov.nga.AllowedValues",
+            "globalID": "com.wikiworks.AllowedValues",
             "description": "",
             "version": "1",
             "pages": [
